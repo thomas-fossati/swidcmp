@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd" xmlns:psa="http://TBD/psa.xsd" name="Roadrunner software bundle" tagId="example.acme.roadrunner-sw-v1-0-1" version="1.0.1">
+  <Entity name="ACME Ltd" regid="acme.example" role="tagCreator softwareCreator aggregator"/>
+  <!-- Attach SW components -->
+  <Link rel="component" href="example.acme.roadrunner-sw-bl-v1-0-1"/>
+  <Link rel="component" href="example.acme.roadrunner-sw-prot-v1-0-1"/>
+  <Link rel="component" href="example.acme.roadrunner-sw-arot-v1-0-0"/>
+  <!-- Patch the previously provisioned bundle -->
+  <Link rel="patches" href="example.acme.roadrunner-sw-v1-0-0" psa:securityCritical="true"/>
+</SoftwareIdentity>

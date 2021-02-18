@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd" xmlns:psa="http://TBD/psa.xsd" name="Roadrunner boot loader" tagId="example.acme.roadrunner-sw-bl-v1-0-0" version="1.0.0">
+  <Entity name="ACME Ltd" regid="acme.example" role="tagCreator aggregator"/>
+  <Payload>
+    <Resource type="PSAMeasuredSoftwareComponent" psa:measurementValue="sha-256:QAgpRzkWLo8BGRNN0mLjUWXUo72gj1n5e2/bnFtOZV0=" psa:signerId="sha-256:QAgpRzkWLo8BGRNN0mLjUWXUo72gj1n5e2/bnFtOZV0="/>
+  </Payload>
+</SoftwareIdentity>

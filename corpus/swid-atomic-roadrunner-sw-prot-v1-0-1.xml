@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd" xmlns:psa="http://TBD/psa.xsd" name="Roadrunner PRoT" tagId="example.acme.roadrunner-sw-prot-v1-0-1" version="1.0.1">
+  <Entity name="ACME Ltd" regid="acme.example" role="tagCreator aggregator"/>
+  <Payload>
+    <Resource type="PSAMeasuredSoftwareComponent" psa:measurementValue="sha-256:QAgpRzkWLo8BGRNN0mLjUWXUo72gj1n5e2/bnFtOZV0=" psa:signerId="sha-256:QAgpRzkWLo8BGRNN0mLjUWXUo72gj1n5e2/bnFtOZV0="/>
+  </Payload>
+  <Link rel="patches" href="example.acme.roadrunner-sw-prot-v1-0-0"/>
+</SoftwareIdentity>

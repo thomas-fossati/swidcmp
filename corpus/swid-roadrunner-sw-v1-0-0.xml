@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd" xmlns:psa="http://TBD/psa.xsd" name="Roadrunner software bundle" tagId="example.acme.roadrunner-sw-v1-0-0" version="1.0.0">
+  <Entity name="ACME Ltd" regid="acme.example" role="tagCreator softwareCreator aggregator"/>
+  <!-- Attach SW to HW RoT -->
+  <Link rel="psa-rot-compound" href="example.acme.roadrunner-hw-v1-0-0"/>
+  <!-- Attach SW components -->
+  <Link rel="component" href="example.acme.roadrunner-sw-bl-v1-0-0"/>
+  <Link rel="component" href="example.acme.roadrunner-sw-prot-v1-0-0"/>
+  <Link rel="component" href="example.acme.roadrunner-sw-arot-v1-0-0"/>
+</SoftwareIdentity>

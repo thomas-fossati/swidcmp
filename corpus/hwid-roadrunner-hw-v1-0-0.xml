@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<HardwareIdentity tagId="example.acme.roadrunner-hw-v1-0-0">
+  <Entity name="ACME Ltd" regid="acme.example" role="tagCreator"/>
+  <PSAHardwareRoT implementationID="ffcf...fffa" hwVer="1234567890123"/>
+</HardwareIdentity>

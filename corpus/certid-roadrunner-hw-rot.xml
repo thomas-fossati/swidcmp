@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<CertificationIdentity tagId="org.psacertified.roadrunner-hw-1234567890123-12345">
+  <Entity name="PSA Certified" regid="psacertified.org" role="tagCreator"/>
+  <PSACertification level="2" certificateNumber="1234567890123-12345" dateOfIssue="28/07/2020" testLab="Riscure" certificationHolder="ACME Ltd" certifiedProduct="RoadRunner Hardware" hardwareVersion="1.0.0" softwareVersion="1.0.0" certificationType="PSA Certified Level 2" developerType="PSA Certified - Chip"/>
+  <Link rel="certifies" href="example.acme.roadrunner-hw-v1-0-0"/>
+</CertificationIdentity>

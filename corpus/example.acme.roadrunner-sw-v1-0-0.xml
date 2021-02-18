@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SoftwareIdentity xmlns="http://standards.iso.org/iso/19770/-2/2015/schema.xsd" tagId="example.acme.roadrunner-sw-v1-0-0" name="Roadrunner software bundle" version="1.0.0">
+  <Entity name="ACME Ltd" regid="acme.example" role="tagCreator softwareCreator aggregator"/>
+  <Link href="example.acme.roadrunner-hw-v1-0-0" rel="psa-rot-compound"/>
+  <Link href="example.acme.roadrunner-sw-bl-v1-0-0" rel="component"/>
+  <Link href="example.acme.roadrunner-sw-prot-v1-0-0" rel="component"/>
+  <Link href="example.acme.roadrunner-sw-arot-v1-0-0" rel="component"/>
+</SoftwareIdentity>
