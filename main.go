@@ -4,8 +4,14 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
+	"strings"
 
 	"github.com/veraison/swid"
+)
+
+var (
+	saveCBORFile = true
 )
 
 // IN: a swid.xml file
@@ -32,6 +38,15 @@ func main() {
 	cbor, err := tag.ToCBOR()
 	if err != nil {
 		log.Fatal(err)
+	}
+
+	if saveCBORFile {
+		cborFile := strings.TrimSuffix(xmlFile, filepath.Ext(xmlFile)) + ".cbor"
+
+		err := ioutil.WriteFile(cborFile, cbor, 0644)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	delta := percentDelta(len(xml), len(cbor))
